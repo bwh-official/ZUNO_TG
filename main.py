@@ -20,38 +20,38 @@ from apscheduler.schedulers.asyncio import AsyncIOScheduler
 scheduler = AsyncIOScheduler()
 
 # Configuration Variables
-API_ID = int(os.environ.get("API_ID", ""))
-API_HASH = os.environ.get("API_HASH", "")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-LZT_API_KEY = os.environ.get("LZT_API_KEY", "")
+API_ID = int(os.environ.get("API_ID", "39408219"))
+API_HASH = os.environ.get("API_HASH", "1469d15958c8748dbbb6161170014a30")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8912569186:AAHCTBwpu9oO9HYknuB7NA2txILYmmD3UsM")
+LZT_API_KEY = os.environ.get("LZT_API_KEY", "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzUxMiJ9.eyJzdWIiOjEwOTU0ODkyLCJpc3MiOiJsenQiLCJpYXQiOjE3OTA5Mzc5MTYsImp0aSI6IjEwMjE0MTgiLCJzY29wZSI6ImJhc2ljIHJlYWQgcG9zdCBjb252ZXJzYXRlIHBheW1lbnQgaW52b2ljZSBjaGF0Ym94IG1hcmtldCIsImV4cCI6MTk0ODYxNzkxNn0.g-J1wonAt90ipY5rAKuaKJDoaUBIUBaX5H46JUXUNoesbjVvrH9g1243p840cq2mIkCd0R3YyqdtA02FtYCcEbGebujCuXk6lcNegYyWva8Wf1I6SnQjzRifYzz4bO4y7tgZ3cyFAsECVwj_1ww7CEqMJ-VVr9T8GDuyvv1iQOQ")
 
-ADMIN_ID = int(os.environ.get("ADMIN_ID", ""))  # Replace with actual Admin User ID
-LOG_CHANNEL_ID = int(os.environ.get("LOG_CHANNEL_ID", ""))
+ADMIN_ID = int(os.environ.get("ADMIN_ID", "8667271525"))  # Replace with actual Admin User ID
+LOG_CHANNEL_ID = int(os.environ.get("LOG_CHANNEL_ID", "-1003555056142"))
 
 # Payment Credentials
-UPI_ID = os.environ.get("UPI_ID", "")
+UPI_ID = os.environ.get("UPI_ID", "ᴢᴜɴᴏˍᴛɢ")
 UPI_QR_URL = os.environ.get("UPI_QR_URL", "")
-CRYPTO_ADDRESS = os.environ.get("CRYPTO_ADDRESS", "")
+CRYPTO_ADDRESS = os.environ.get("CRYPTO_ADDRESS", "0x636e0cfb86bdd462dcf4e79e0f7b49a7acffa4b8")
 
 # MongoDB URI
-MONGO_URL = os.environ.get("MONGO_URL", "")
+MONGO_URL = os.environ.get("MONGO_URL", "mongodb+srv://zunotg:zunotg@zunotg.nfrpdb4.mongodb.net/?appName=ZUNOTG")
 mongo_client = AsyncIOMotorClient(MONGO_URL)
 db = mongo_client["lzt_shop_db"]
 users_col = db["users"]
 orders_col = db["orders"]
 prices_collection = db["country_prices"]
 
-SUPPORT_USERNAME = "" 
-SOURCE_CODE_TEXT = "🤖 **Source Code Information**\n\n**Price is ₹3000 / $30**\n\nTo buy or get access to this bot's source code, contact support: "
+SUPPORT_USERNAME = "@ZUNO_S" 
+SOURCE_CODE_TEXT = "🤖 **Source Code Information**\n\n**Price is ₹3000 / $30**\n\nTo buy or get access to this bot's source code, contact support: "https://t.me/ZUNO_S"
 
 # Replace with your actual Channel and Group usernames or IDs
-CHANNEL_USERNAME = ""  # without '@'
-GROUP_USERNAME = ""      # without '@'
+CHANNEL_USERNAME = "ZUNO_TG_L"  # without '@'
+GROUP_USERNAME = "ZUNO_TG_G"      # without '@'
 
-GROUP_ID = int("")
+GROUP_ID = int("-1004456887820")
 
 USD_TO_INR = 100.0
-PROFIT_MARGIN = 1.25
+PROFIT_MARGIN = 1.40
 
 # Anti-spam tracker: {usetimestamp}
 USER_COOLDOWNS = {}
@@ -272,7 +272,7 @@ START_TEXT = (
     "• 🛠️ **Support:** Get help from our admin team.\n"
     "• 💻 **Source Code:** Get access to custom bot development.\n"
     "• ⚠️ **NO REFUNDS IN ANY CASE.**\n\n"
-    "**🧑‍💻 Bot Is Developed Or Maintained By Tech VJ - @VJ_Bots**\n\n"
+    "**🧑‍💻 Bot Is Developed Or Maintained By @ZUNO_S**\n\n"
     "👇 **Select an option below to get started:**"
 )
 
