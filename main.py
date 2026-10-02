@@ -42,7 +42,7 @@ orders_col = db["orders"]
 prices_collection = db["country_prices"]
 
 SUPPORT_USERNAME = "@ZUNO_S" 
-SOURCE_CODE_TEXT = "🤖 **Source Code Information**\n\n**Price is ₹3000 / $30**\n\nTo buy or get access to this bot's source code, contact support: "https://t.me/ZUNO_S"
+SOURCE_CODE_TEXT = "🤖 **Source Code Information**\n\n**Price is ₹3000 / $30**\n\nTo buy or get access to this bot's source code, contact support: "
 
 # Replace with your actual Channel and Group usernames or IDs
 CHANNEL_USERNAME = "ZUNO_TG_L"  # without '@'
