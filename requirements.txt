@@ -1,0 +1,11 @@
+pyrofork
+tgcrypto
+motor
+pytz
+pillow
+deep-translator
+python-dateutil
+apscheduler
+telethon==1.36.0
+aiohttp==3.9.5
+pycountry==24.6.1
