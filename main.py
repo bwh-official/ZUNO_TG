@@ -362,7 +362,7 @@ async def handle_text_inputs(client: Client, message: Message):
 
         text = (
             f"💳 **Deposit Amount:** ₹{amount:.2f}\n\n"
-            f"Please select your preferred payment method below:"
+            f"Please select your preferred payment method below: UPI OR QR PAYMENT NOT AVAILABLE RIGHTNOW. INSTEAD OF SEND PHONEPAY GIFT CARD SCREENSHOT"
         )
         keyboard = InlineKeyboardMarkup([
             [
